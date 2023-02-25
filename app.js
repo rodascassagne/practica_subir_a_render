@@ -39,6 +39,10 @@ app.get("/customers", (req, res) => {
   res.status(200).send("Student information");
 });
 
+app.get("/", (req, res) => {
+  res.status(200).send("Student information");
+});
+
 /**
  * @swagger
  * /customer:
